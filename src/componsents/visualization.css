@@ -1,0 +1,6 @@
+.vis-container {
+    margin: 100px 0 0;
+    max-width: 1250px;
+    min-width: 1250px;
+    transform: translate(25%, 0%); 
+}

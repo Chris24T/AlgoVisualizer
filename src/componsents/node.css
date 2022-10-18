@@ -1,0 +1,56 @@
+.node {
+    width: 25px;
+    height: 25px;
+    outline: 1px solid rgb(175, 216, 248);
+    display: inline-block;
+    vertical-align: top;
+}
+
+.node-start {
+    
+    background-color: red;
+}
+
+.node-start.visited {
+    background-color: red;
+}
+
+/* .node-weight {
+    background-color: blueviolet;
+}
+
+.node-weight.visited {
+    background-color: rgb(138, 43, 226);
+} */
+
+.wall {
+    background-color: black;
+}
+
+.visited.weight2, .weight2 {
+    background-color: rgb(138, 43, 226, .30);
+}
+.visited.weight3, .weight3 {
+    background-color: rgb(138, 43, 226, .60);
+    
+}
+.visited.weight4, .weight4 {
+    background-color: rgb(138, 43, 226, .90);
+    
+}
+
+.node-end.visited {
+    background-color: blue;
+}
+
+.node-end {
+    background-color: blue;
+}
+
+.visited {
+    background-color: cyan;
+}
+
+.path {
+    background-color: navy ;
+}
